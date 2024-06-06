@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Practical6.4</title>
+</head>
+<BODY BGCOLOR="grey">
+<div class="registr_style">
+    <H1 class="registr_title">Форма реєстрації</H1>
+
+    <FORM METHOD=GET name="form1" class="form_style">
+        <TABLE BORDER=0>
+            <TR>
+                <TD ALIGN="RIGHT">Ім'я:</TD>
+                <TD ALIGN="RIGHT" ><INPUT TYPE="TEXT" NAME="NM" SIZE=11></TD>
+            </TR>
+            <TR>
+                <TD ALIGN="RIGHT">Пароль:</TD>
+                <TD ALIGN="RIGHT"><INPUT TYPE="PASSWORD" id="pass1" SIZE=11></TD>
+            </TR>
+            <TR>
+                <TD ALIGN="LEFT">Повторіть Пароль:</TD>
+                <TD ALIGN="RIGHT"><INPUT TYPE="PASSWORD" id="pass2" SIZE=11></TD>
+            </TR>
+            <TR ALIGN="CENTER">
+                <TD ALIGN="LEFT"> <INPUT TYPE="SUBMIT" VALUE="Передати" onclick="checking()"></TD>
+                <TD ALIGN="RIGHT"> <INPUT TYPE="RESET" VALUE= "Очистити"></TD>
+            </TR>
+        </TABLE>
+    </FORM>
+</div>
+
+<script src="assets/js/style.js"></script>
+</BODY>
+</html>

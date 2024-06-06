@@ -1,0 +1,22 @@
+.title_zaglushka{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.registr_style{
+    border: 1px solid black;
+    width: 280px;
+    height: 180px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.registr_title{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.form_style{
+    padding-left: 15px;
+}
